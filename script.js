@@ -91,12 +91,12 @@ const table = document.querySelector("table");
 
 addButton.addEventListener("click", function() {
   if (!input1.value || !input2.value || !input3.value) {
-    alert("Please enter all the required details");
+    alert("Prasome ivesti reikiama informacija");
     return;
   }
 
   if (input3.value <= 0) {
-    alert("Age cannot be less than or equal to zero");
+    alert("Amzius negali buti nulis ar maziau");
     return;
   }
 
